@@ -58,7 +58,7 @@ export default function ContactPage() {
           <div className="contact-info-card">
             <div className="contact-icon">📧</div>
             <h3>Email</h3>
-            <p>support@projectflow.app</p>
+            <p>zwmkhaled@gmail.com</p>
           </div>
           <div className="contact-info-card">
             <div className="contact-icon">💬</div>
