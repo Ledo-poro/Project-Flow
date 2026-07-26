@@ -1,75 +1,111 @@
-# React + TypeScript + Vite
+# 🚀 SaaS Project Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive SaaS project management dashboard designed to help teams organize projects, manage tasks, track progress, and monitor their workflow from one centralized interface.
 
-Currently, two official plugins are available:
+The project is inspired by modern productivity platforms such as Trello and Linear, with a focus on clean UI, reusable components, responsive layouts, and a professional SaaS experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 📊 **Dashboard Overview**
+  - Project statistics
+  - Task overview
+  - Progress tracking
+  - Productivity insights
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📁 **Project Management**
+  - View and manage projects
+  - Track project progress
+  - Project status overview
 
-## Expanding the ESLint configuration
+- ✅ **Task Management**
+  - Create and manage tasks
+  - Task status tracking
+  - Organize tasks by workflow
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 📌 **Kanban Board**
+  - To Do
+  - In Progress
+  - Done
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- 👥 **Team Members**
+  - Team member interface
+  - Member overview
+  - Project collaboration UI
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- 📅 **Calendar View**
+  - View scheduled tasks
+  - Organize project activities
+  - Track important dates
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- 🔍 **Search & Filtering**
+  - Search projects and tasks
+  - Filter information for easier navigation
 
-```
+- 📈 **Project Analytics**
+  - Project progress charts
+  - Visual progress tracking
+  - Performance overview
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- 🔔 **Notifications UI**
+  - Activity notifications
+  - Project updates
+  - Task-related alerts
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- ⚙️ **Settings**
+  - Application settings interface
+  - User preferences
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- 🌓 **Dark & Light Mode**
+  - Switch between dark and light themes
 
-```
+- 📱 **Fully Responsive**
+  - Desktop
+  - Tablet
+  - Mobile
+
+- 💾 **Local Data Persistence**
+  - Uses `localStorage` for frontend data persistence
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **TypeScript**
+- **CSS**
+- **LocalStorage**
+
+---
+
+## 🎯 Project Goals
+
+This project was created to practice and demonstrate modern frontend development skills by building a realistic SaaS application interface.
+
+The main goals were:
+
+- Build a professional SaaS dashboard
+- Practice scalable React component architecture
+- Improve TypeScript development skills
+- Create reusable UI components
+- Implement responsive layouts
+- Practice dashboard and data visualization UI
+- Build a realistic project management workflow
+- Improve frontend UX and UI design skills
+
+---
+
+## 📂 Main Sections
+
+The application includes:
+
+```text
+Dashboard
+├── Overview
+├── Projects
+├── Tasks
+├── Kanban Board
+├── Calendar
+├── Team Members
+├── Analytics
+├── Notifications
+└── Settings
